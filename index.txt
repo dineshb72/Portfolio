@@ -1,0 +1,196 @@
+vCard - Personal Portfolio
+
+# sidebar
+
+alt = Dinesh Bukya
+Dinesh Bukya
+Java Full Stack Developer
+
+Show Contacts
+
+Email
+dinesh@example.com
+
+Location
+St. Louis, MO, USA
+
+# navbar
+
+About
+Experience
+Skills
+Contact
+
+# about
+
+About me
+
+I am a Java Full Stack Developer with over 8 years of experience in designing and building enterprise-level applications. 
+I specialize in developing scalable microservices, optimizing system performance, and ensuring secure backend services. 
+I thrive in cloud environments and focus on delivering seamless user experiences.
+
+My expertise includes developing secure Spring Boot microservices, integrating Kafka and RabbitMQ for event-driven systems, 
+and leveraging cloud platforms such as AWS, Azure, and GCP. I am passionate about creating efficient and scalable solutions 
+that drive business success.
+
+## service
+
+What I'm doing
+
+alt = Backend Development
+Backend Development
+Building secure and efficient Spring Boot microservices with JWT authentication and OAuth2.
+
+alt = Frontend Development
+Frontend Development
+Creating dynamic and reusable React.js and Angular components with Redux for state management.
+
+alt = Cloud Solutions
+Cloud Solutions
+Deploying scalable infrastructure on AWS, Azure, and GCP for reliable cloud-based applications.
+
+alt = Database Optimization
+Database Optimization
+Designing efficient schemas, optimizing queries, and managing large datasets in PostgreSQL, Oracle, and MongoDB.
+
+## testimonials
+
+Testimonials
+
+alt = John Smith
+John Smith
+Dinesh played a crucial role in designing and optimizing our cloud infrastructure. His expertise in Spring Boot and Kubernetes ensured seamless deployment and reliability.
+
+alt = Sarah Lee
+Sarah Lee
+Dinesh demonstrated exceptional knowledge in building microservices architectures. His work with Kafka and RabbitMQ significantly improved our system's scalability.
+
+alt = Michael Brown
+Michael Brown
+Dinesh’s contributions in optimizing our database workflows using PostgreSQL and MongoDB were outstanding. His technical skills are top-notch.
+
+alt = Emily White
+Emily White
+Dinesh was instrumental in creating our CI/CD pipelines using Jenkins and Azure DevOps, ensuring smooth deployment workflows.
+
+## clients
+
+Clients
+
+alt = client logo
+
+# resume
+
+Resume
+
+Education
+
+Saint Louis University
+2023 — 2024
+Master of Science in Information Systems
+
+Experience
+
+Scalable Inventory Management System – Caterpillar
+2020 — 2022
+Developed React.js applications, implemented OAuth2 authentication with Spring Boot, and optimized PostgreSQL performance.
+
+Workflow Version Control Manager – New Relic
+2018 — 2020
+Built a modular microservices architecture, integrated RabbitMQ for event-driven tasks, and optimized backend deployments using AWS EC2.
+
+Order Tracking System – HomeGoods
+2015 — 2018
+Developed dynamic Angular components with RxJS, implemented Spring Boot APIs, and designed efficient PostgreSQL schemas.
+
+My Skills
+
+Frontend Technologies
+React.js, Angular, Redux, RxJS
+
+Backend Technologies
+Java Spring Boot, Node.js, Express.js
+
+Cloud Platforms
+AWS, Azure, GCP
+
+CI/CD & DevOps
+Jenkins, GitLab CI, Azure DevOps
+
+Database Management
+PostgreSQL, Oracle, MongoDB
+
+# portfolio
+
+Portfolio
+
+All
+Backend Development
+Frontend Development
+Cloud Solutions
+
+Select category
+All
+Backend Development
+Frontend Development
+Cloud Solutions
+
+alt = inventory-management
+Scalable Inventory System
+Backend Development
+
+alt = workflow-manager
+Workflow Version Control Manager
+Backend Development
+
+alt = order-tracking
+Order Tracking System
+Frontend Development
+
+alt = cloud-analytics
+Cloud Analytics Platform
+Cloud Solutions
+
+alt = data-pipeline
+Data Pipeline Architecture
+Cloud Solutions
+
+# blog
+
+Blog
+
+alt = Microservices Best Practices
+Tech
+Jan 15, 2024
+Microservices Best Practices
+Learn how to design scalable and efficient microservices architectures.
+
+alt = CI/CD Automation Guide
+Tech
+Feb 12, 2024
+CI/CD Automation Guide
+Streamline your deployment workflows with Jenkins and Azure DevOps.
+
+alt = Cloud Infrastructure Scaling
+Tech
+Mar 5, 2024
+Cloud Infrastructure Scaling
+Best practices for scaling cloud-based applications on AWS and Azure.
+
+alt = Database Performance Tuning
+Tech
+Apr 22, 2024
+Database Performance Tuning
+Techniques for optimizing PostgreSQL and Oracle database performance.
+
+# contact
+
+Contact
+
+Contact Form
+
+Full name
+Email address
+Your Message
+
+Send Message
