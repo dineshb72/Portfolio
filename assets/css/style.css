@@ -1593,6 +1593,41 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .modal-avatar-box img { width: 80px; }
 
+/* Clients Section */
+.clients {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.clients-list {
+  margin-top: 20px;
+}
+
+.clients-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.client-item {
+  text-align: center;
+}
+
+.client-item img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.client-project {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+  margin-top: 5px;
+}
 
 
   /**
