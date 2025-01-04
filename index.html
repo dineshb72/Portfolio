@@ -5,209 +5,547 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dinesh Bukya - Java Full Stack Developer</title>
+  <title>vCard - Personal Portfolio</title>
 
-  <!-- Favicon -->
+  <!--
+    - favicon
+  -->
   <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
 
-  <!-- Custom CSS -->
+  <!--
+    - custom css link
+  -->
   <link rel="stylesheet" href="./assets/css/style.css">
 
-  <!-- Google Font -->
+  <!--
+    - google font link
+  -->
+    
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-  <!-- MAIN -->
+  <!--
+    - #MAIN
+  -->
+
   <main>
 
-    <!-- SIDEBAR -->
+    <!--
+      - #SIDEBAR
+    -->
+
     <aside class="sidebar" data-sidebar>
+
       <div class="sidebar-info">
+
         <figure class="avatar-box">
-          <img src="./assets/images/dinesh.png" alt="Dinesh Bukya" width="100">
+          <img src="./assets/images/db.png" alt="Dinesh Bukya" width="80">
         </figure>
 
         <div class="info-content">
-          <h1 class="name" title="Dinesh Bukya">Dinesh Bukya</h1>
-          <p class="title">Java Full Stack Developer</p>
+          <h1 class="name" title="Richard hanrick">Dinesh Bukya</h1>
+
+          <p class="title"> Java Full Stack developer</p>
         </div>
 
         <button class="info_more-btn" data-sidebar-btn>
           <span>Show Contacts</span>
+
           <ion-icon name="chevron-down"></ion-icon>
         </button>
+
       </div>
 
       <div class="sidebar-info_more">
+
         <div class="separator"></div>
+
         <ul class="contacts-list">
+
           <li class="contact-item">
+
             <div class="icon-box">
               <ion-icon name="mail-outline"></ion-icon>
             </div>
+
             <div class="contact-info">
               <p class="contact-title">Email</p>
-              <a href="mailto:bukyadinesh17@gmail.com" class="contact-link">bukyadinesh17@gmail.com</a>
+
+              <a href="mailto:richard@example.com" class="contact-link">Bukyadinesh17@gmail.com</a>
             </div>
+
           </li>
+
           <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div> 
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+1 (314)815-7314 </a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
             <div class="icon-box">
               <ion-icon name="location-outline"></ion-icon>
             </div>
+
             <div class="contact-info">
               <p class="contact-title">Location</p>
-              <address>St. Louis, MO, USA</address>
+
+              <address>Saint Louis, Missouri , USA</address>
             </div>
+
           </li>
+
         </ul>
 
         <div class="separator"></div>
+
         <ul class="social-list">
-          <li class="social-item"><a href="https://github.com/dineshb72" class="social-link"><ion-icon name="logo-github"></ion-icon></a></li>
-          <li class="social-item"><a href="https://www.linkedin.com/in/bukya-d-288a30151/" class="social-link"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/bukya-d-288a30151/" class="social-link" target="_blank">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+          
+
+         
+
+          <li class="social-item">
+            <a href="https://github.com/dineshb72" class="social-link" target="_blank">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+          
+
         </ul>
+
       </div>
+
     </aside>
 
-    <!-- MAIN CONTENT -->
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
     <div class="main-content">
 
-      <!-- NAVBAR -->
+      <!--
+        - #NAVBAR
+      -->
+
       <nav class="navbar">
+
         <ul class="navbar-list">
-          <li class="navbar-item"><button class="navbar-link active" data-nav-link>About</button></li>
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+        
+
          
-          <li class="navbar-item"><button class="navbar-link" data-nav-link>Skills</button></li>
-          <li class="navbar-item"><button class="navbar-link" data-nav-link>Contact</button></li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
         </ul>
+
       </nav>
 
-      <!-- ABOUT SECTION -->
-      <article class="about active" data-page="about">
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
         <header>
-          <h2 class="h2 article-title">About Me</h2>
+          <h2 class="h2 article-title">About me</h2>
         </header>
+
         <section class="about-text">
           <p>
-            I am a Java Full Stack Developer with over 8 years of experience in designing and building enterprise-level applications. 
-            I specialize in developing scalable microservices, optimizing system performance, and ensuring secure backend services. 
-            I thrive in cloud environments and focus on delivering seamless user experiences.
+            Java Full Stack Developer focused on building scalable, secure, and efficient applications, delivering reliable solutions that meet business goals.
           </p>
-        </section>
-      </article>
 
-   <!-- Clients Section -->
-<article class="clients" data-page="clients">
-  <header>
-    <h2 class="h2 article-title">Clients</h2>
-  </header>
-  <section class="clients-list">
-    <ul class="clients-grid">
-      <li class="client-item">
-        <img src="./assets/images/CAT-logo.png" alt="Caterpillar Logo">
-        <h4 class="client-project">Scalable Inventory Management System</h4>
-      </li>
-      <li class="client-item">
-        <img src="./assets/images/newrelic_logo.png" alt="New Relic Logo">
-        <h4 class="client-project">Workflow Version Control Manager</h4>
-      </li>
-      <li class="client-item">
-        <img src="./assets/images/HomeGoods_logo.png" alt="HomeGoods Logo">
-        <h4 class="client-project">Order Tracking System</h4>
-      </li>
-      <li class="client-item">
-        <img src="./assets/images/sentara-logo.png" alt="Sentara Logo">
-        <h4 class="client-project">EHRSync Platform</h4>
-      </li>
-      <li class="client-item">
-        <img src="./assets/images/citrixsystems-logo.png"alt="Citrix Systems Logo">
-        <h4 class="client-project">CloudConnect Platform Development</h4>
-      </li>
-    </ul>
-  </section>
-</article>
-
-
-        <section class="timeline">
-          <h3 class="h3">Scalable Inventory Management System – Caterpillar</h3>
           <p>
-            Developed React.js applications with Redux Toolkit, implemented Spring Boot microservices with OAuth2 authentication,
-            and optimized database performance using PostgreSQL and MongoDB.
+            Building reliable and scalable applications with clean code and thoughtful design, delivering solutions that drive performance and meet business goals.
           </p>
         </section>
 
-        <section class="timeline">
-          <h3 class="h3">Workflow Version Control Manager – New Relic</h3>
-          <p>
-            Built modular microservices architecture, integrated RabbitMQ for event-driven communication, and deployed
-            services on AWS EC2 instances using Kubernetes.
-          </p>
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Experience</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/CAT-logo.png " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Scalable Inventory Management System – Caterpillar Inc</h4>
+
+                <p class="service-item-text">
+                  Developed React.js applications with Redux Toolkit, implemented Spring Boot microservices with OAuth2 authentication, and optimized database performance using PostgreSQL and MongoDB.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/newrelic_logo.png" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Workflow Version Control Manager – New Relic</h4>
+
+                <p class="service-item-text">
+                  Built modular microservices architecture, integrated RabbitMQ for event-driven communication, and deployed services on AWS EC2 instances using Kubernetes.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/HomeGoods_logo.png" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Order Tracking System – HomeGoods</h4>
+
+                <p class="service-item-text">
+                  Designed Angular-based frontend with RxJS for event-driven programming, and implemented APIs using Java Spring Boot and PostgreSQL. </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/sentara-logo.png" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">EHRSync - Sentara Healthcare</h4>
+
+                <p class="service-item-text">
+                  EHRSync simplifies Electronic Health Record (EHR) integration with secure, real-time data synchronization, ensuring consistent patient information access and streamlined healthcare communication.                </p>
+              </div>
+
+            </li>
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/citrixsystems-logo.png" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Java Full Stack Engineer – Citrix Systems</h4>
+
+                <p class="service-item-text">
+                  Built a scalable and organized system for order tracking and management, focusing on clarity, seamless data flow, and maintainable architecture to ensure efficient operations. </p>
+              </div>
+
+            </li>
+
+          </ul>
+
         </section>
 
-        <section class="timeline">
-          <h3 class="h3">Order Tracking System – HomeGoods</h3>
-          <p>
-            Designed Angular-based frontend with RxJS for event-driven programming, and implemented APIs using Java Spring Boot and PostgreSQL.
-          </p>
-        </section>
-      </article>
 
-      <!-- SKILLS SECTION -->
-      <article class="skills" data-page="skills">
+        
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
         <header>
-          <h2 class="h2 article-title">My Skills</h2>
+          <h2 class="h2 article-title">Blog</h2>
         </header>
-        <ul class="skills-list content-card">
-          <li class="skills-item">
-            <h5 class="h5">Frontend Technologies</h5>
-            <p>React.js, Angular, Redux, RxJS</p>
-          </li>
-          <li class="skills-item">
-            <h5 class="h5">Backend Technologies</h5>
-            <p>Java Spring Boot, Node.js, Express.js</p>
-          </li>
-          <li class="skills-item">
-            <h5 class="h5">Cloud Platforms</h5>
-            <p>AWS, Azure, GCP</p>
-          </li>
-          <li class="skills-item">
-            <h5 class="h5">CI/CD & DevOps</h5>
-            <p>Jenkins, Azure DevOps, GitLab CI</p>
-          </li>
-        </ul>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
+
+                  <p class="blog-text">
+                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
+
+                  <p class="blog-text">
+                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #80</h3>
+
+                  <p class="blog-text">
+                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
+
+                  <p class="blog-text">
+                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+
+                  <p class="blog-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                  <p class="blog-text">
+                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
       </article>
 
-      <!-- CONTACT SECTION -->
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
       <article class="contact" data-page="contact">
+
         <header>
           <h2 class="h2 article-title">Contact</h2>
         </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
         <section class="contact-form">
-          <h3 class="h3 form-title">Send a Message</h3>
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
           <form action="#" class="form" data-form>
+
             <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required>
-              <input type="email" name="email" class="form-input" placeholder="Email address" required>
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
             </div>
-            <textarea name="message" class="form-input" placeholder="Your Message" required></textarea>
-            <button class="form-btn" type="submit">
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
               <ion-icon name="paper-plane"></ion-icon>
               <span>Send Message</span>
             </button>
+
           </form>
+
         </section>
+
       </article>
+
     </div>
+
   </main>
 
-  <!-- JS Scripts -->
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
   <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
+
 </html>
