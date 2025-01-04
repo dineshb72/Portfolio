@@ -1,213 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dinesh Bukya - Java Full Stack Developer</title>
-
-  <!-- Favicon -->
-  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
-
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="./assets/css/style.css">
-
-  <!-- Google Font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <title>Dinesh Bukya | Java Full Stack Developer</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <script src="script.js" defer></script>
 </head>
 
 <body>
-
-  <!-- MAIN -->
-  <main>
-
-    <!-- SIDEBAR -->
-    <aside class="sidebar" data-sidebar>
-      <div class="sidebar-info">
-        <figure class="avatar-box">
-          <img src="./assets/images/dinesh.png" alt="Dinesh Bukya" width="100">
-        </figure>
-
-        <div class="info-content">
-          <h1 class="name" title="Dinesh Bukya">Dinesh Bukya</h1>
-          <p class="title">Java Full Stack Developer</p>
+  <!-- Header Section -->
+  <header class="header">
+    <div class="container">
+      <div class="profile">
+        <img src="assets/images/dinesh.png" alt="Dinesh Bukya" class="profile-img">
+        <h1>Dinesh Bukya</h1>
+        <p>Java Full Stack Developer</p>
+        <div class="social-links">
+          <a href="https://github.com/dineshb72" target="_blank">GitHub</a>
+          <a href="https://www.linkedin.com/in/bukya-d-288a30151/" target="_blank">LinkedIn</a>
         </div>
-
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
       </div>
-
-      <div class="sidebar-info_more">
-        <div class="separator"></div>
-        <ul class="contacts-list">
-          <li class="contact-item">
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
-              <a href="mailto:bukyadinesh17@gmail.com" class="contact-link">bukyadinesh17@gmail.com</a>
-            </div>
-          </li>
-          <li class="contact-item">
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
-              <address>St. Louis, MO, USA</address>
-            </div>
-          </li>
-        </ul>
-
-        <div class="separator"></div>
-        <ul class="social-list">
-          <li class="social-item"><a href="https://github.com/dineshb72" class="social-link"><ion-icon name="logo-github"></ion-icon></a></li>
-          <li class="social-item"><a href="https://www.linkedin.com/in/bukya-d-288a30151/" class="social-link"><ion-icon name="logo-linkedin"></ion-icon></a></li>
-        </ul>
-      </div>
-    </aside>
-
-    <!-- MAIN CONTENT -->
-    <div class="main-content">
-
-      <!-- NAVBAR -->
-      <nav class="navbar">
-        <ul class="navbar-list">
-          <li class="navbar-item"><button class="navbar-link active" data-nav-link>About</button></li>
-         
-          <li class="navbar-item"><button class="navbar-link" data-nav-link>Skills</button></li>
-          <li class="navbar-item"><button class="navbar-link" data-nav-link>Contact</button></li>
-        </ul>
-      </nav>
-
-      <!-- ABOUT SECTION -->
-      <article class="about active" data-page="about">
-        <header>
-          <h2 class="h2 article-title">About Me</h2>
-        </header>
-        <section class="about-text">
-          <p>
-            I am a Java Full Stack Developer with over 8 years of experience in designing and building enterprise-level applications. 
-            I specialize in developing scalable microservices, optimizing system performance, and ensuring secure backend services. 
-            I thrive in cloud environments and focus on delivering seamless user experiences.
-          </p>
-        </section>
-      </article>
-
-   <!-- Clients Section -->
-<article class="clients" data-page="clients">
-  <header>
-    <h2 class="h2 article-title">Clients</h2>
+    </div>
   </header>
-  <section class="clients-list">
-    <ul class="clients-grid">
-      <li class="client-item">
-        <img src="./assets/images/CAT-logo.png" alt="Caterpillar Logo">
-        <h4 class="client-project">Scalable Inventory Management System</h4>
-      </li>
-      <li class="client-item">
-        <img src="./assets/images/newrelic_logo.png" alt="New Relic Logo">
-        <h4 class="client-project">Workflow Version Control Manager</h4>
-      </li>
-      <li class="client-item">
-        <img src="./assets/images/HomeGoods_logo.png" alt="HomeGoods Logo">
-        <h4 class="client-project">Order Tracking System</h4>
-      </li>
-      <li class="client-item">
-        <img src="./assets/images/sentara-logo.png" alt="Sentara Logo">
-        <h4 class="client-project">EHRSync Platform</h4>
-      </li>
-      <li class="client-item">
-        <img src="./assets/images/citrixsystems-logo.png"alt="Citrix Systems Logo">
-        <h4 class="client-project">CloudConnect Platform Development</h4>
-      </li>
+
+  <!-- About Section -->
+  <section class="about container">
+    <h2>About Me</h2>
+    <p>
+      I am a Java Full Stack Developer with over 8 years of experience in designing and building enterprise-level applications. 
+      I specialize in developing scalable microservices, optimizing system performance, and ensuring secure backend services.
+    </p>
+  </section>
+
+  <!-- Experience Section -->
+  <section class="experience container">
+    <h2>Experience</h2>
+    <div class="experience-grid">
+      <div class="experience-item">
+        <img src="assets/images/CAT-logo.png" alt="Caterpillar">
+        <h4>Caterpillar</h4>
+        <p>Scalable Inventory Management System</p>
+      </div>
+      <div class="experience-item">
+        <img src="assets/images/newrelic_logo.png" alt="New Relic">
+        <h4>New Relic</h4>
+        <p>Workflow Version Control Manager</p>
+      </div>
+      <div class="experience-item">
+        <img src="assets/images/HomeGoods_logo.png" alt="HomeGoods">
+        <h4>HomeGoods</h4>
+        <p>Order Tracking System</p>
+      </div>
+      <div class="experience-item">
+        <img src="assets/images/sentara-logo.png" alt="Sentara">
+        <h4>Sentara Healthcare</h4>
+        <p>EHRSync Platform</p>
+      </div>
+      <div class="experience-item">
+        <img src="assets/images/citrixsystems-logo.png" alt="Citrix Systems">
+        <h4>Citrix Systems</h4>
+        <p>CloudConnect Platform Development</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="skills container">
+    <h2>Skills</h2>
+    <ul>
+      <li>Frontend: React.js, Angular, Redux, RxJS</li>
+      <li>Backend: Java Spring Boot, Node.js, Express.js</li>
+      <li>Cloud: AWS, Azure, GCP</li>
+      <li>CI/CD: Jenkins, Azure DevOps, GitLab CI</li>
     </ul>
   </section>
-</article>
 
-
-        <section class="timeline">
-          <h3 class="h3">Scalable Inventory Management System – Caterpillar</h3>
-          <p>
-            Developed React.js applications with Redux Toolkit, implemented Spring Boot microservices with OAuth2 authentication,
-            and optimized database performance using PostgreSQL and MongoDB.
-          </p>
-        </section>
-
-        <section class="timeline">
-          <h3 class="h3">Workflow Version Control Manager – New Relic</h3>
-          <p>
-            Built modular microservices architecture, integrated RabbitMQ for event-driven communication, and deployed
-            services on AWS EC2 instances using Kubernetes.
-          </p>
-        </section>
-
-        <section class="timeline">
-          <h3 class="h3">Order Tracking System – HomeGoods</h3>
-          <p>
-            Designed Angular-based frontend with RxJS for event-driven programming, and implemented APIs using Java Spring Boot and PostgreSQL.
-          </p>
-        </section>
-      </article>
-
-      <!-- SKILLS SECTION -->
-      <article class="skills" data-page="skills">
-        <header>
-          <h2 class="h2 article-title">My Skills</h2>
-        </header>
-        <ul class="skills-list content-card">
-          <li class="skills-item">
-            <h5 class="h5">Frontend Technologies</h5>
-            <p>React.js, Angular, Redux, RxJS</p>
-          </li>
-          <li class="skills-item">
-            <h5 class="h5">Backend Technologies</h5>
-            <p>Java Spring Boot, Node.js, Express.js</p>
-          </li>
-          <li class="skills-item">
-            <h5 class="h5">Cloud Platforms</h5>
-            <p>AWS, Azure, GCP</p>
-          </li>
-          <li class="skills-item">
-            <h5 class="h5">CI/CD & DevOps</h5>
-            <p>Jenkins, Azure DevOps, GitLab CI</p>
-          </li>
-        </ul>
-      </article>
-
-      <!-- CONTACT SECTION -->
-      <article class="contact" data-page="contact">
-        <header>
-          <h2 class="h2 article-title">Contact</h2>
-        </header>
-        <section class="contact-form">
-          <h3 class="h3 form-title">Send a Message</h3>
-          <form action="#" class="form" data-form>
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required>
-              <input type="email" name="email" class="form-input" placeholder="Email address" required>
-            </div>
-            <textarea name="message" class="form-input" placeholder="Your Message" required></textarea>
-            <button class="form-btn" type="submit">
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
-            </button>
-          </form>
-        </section>
-      </article>
-    </div>
-  </main>
-
-  <!-- JS Scripts -->
-  <script src="./assets/js/script.js"></script>
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2025 Dinesh Bukya | All Rights Reserved</p>
+  </footer>
 </body>
 </html>
+
