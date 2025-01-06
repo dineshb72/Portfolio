@@ -2107,6 +2107,16 @@ html {
     gap: 30px;
   }
 }
+/*
+.navbar {
+ /* background-color: #121212;  
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  padding: 10px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+} */
+
 
 @media (min-width: 1024px) {
   .skills-grid {
@@ -2160,6 +2170,32 @@ html {
 
 }
 
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Remove extra spacing from body and html */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+/* Ensure no top spacing */
+body {
+  margin-top: 0;
+}
+
+/* Fix potential spacing caused by inline-block elements */
+body::before {
+  content: "";
+  display: block;
+  margin: 0;
+  padding: 0;
+}
 
 
 
@@ -2199,6 +2235,8 @@ html {
   .sidebar, article { width: auto; }
 
   article { min-height: 100%; }
+
+
 
 
 
