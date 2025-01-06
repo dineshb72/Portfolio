@@ -24,6 +24,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
 </head>
 
 <body>
@@ -151,26 +153,15 @@
       -->
 
       <nav class="navbar">
-
         <ul class="navbar-list">
-
           <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
+            <a href="#about" class="navbar-link active">About</a>
           </li>
-
-        
-
+          <li class="navbar-item">
+            <a href="#skills" class="navbar-link">Skills</a>
+          </li>
          
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Blog</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Contact</button>
-          </li>
-
         </ul>
-
       </nav>
 
 
@@ -215,10 +206,10 @@
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Scalable Inventory Management System – Caterpillar Inc</h4>
+                <h4 class="h4 service-item-title">Caterpillar Inc  (Jan 2023 - Present ) </h4>
 
                 <p class="service-item-text">
-                  Developed React.js applications with Redux Toolkit, implemented Spring Boot microservices with OAuth2 authentication, and optimized database performance using PostgreSQL and MongoDB.
+                  Java Full Stack Developer
                 </p>
               </div>
 
@@ -231,10 +222,10 @@
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Workflow Version Control Manager – New Relic</h4>
+                <h4 class="h4 service-item-title"> New Relic (June 2021 - Dec 2022) </h4>
 
                 <p class="service-item-text">
-                  Built modular microservices architecture, integrated RabbitMQ for event-driven communication, and deployed services on AWS EC2 instances using Kubernetes.
+                  Java Full Stack Developer
                 </p>
               </div>
 
@@ -247,10 +238,11 @@
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Order Tracking System – HomeGoods</h4>
+                <h4 class="h4 service-item-title"> HomeGoods (Jan 2020 - May 2021) </h4>
 
                 <p class="service-item-text">
-                  Designed Angular-based frontend with RxJS for event-driven programming, and implemented APIs using Java Spring Boot and PostgreSQL. </p>
+                  Java Full Stack Developer
+                   </p>
               </div>
 
             </li>
@@ -262,10 +254,11 @@
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">EHRSync - Sentara Healthcare</h4>
+                <h4 class="h4 service-item-title"> Sentara Healthcare (July 2018 - Dec 2019) </h4>
 
                 <p class="service-item-text">
-                  EHRSync simplifies Electronic Health Record (EHR) integration with secure, real-time data synchronization, ensuring consistent patient information access and streamlined healthcare communication.                </p>
+                  Java Full Stack Developer
+                </p>
               </div>
 
             </li>
@@ -276,10 +269,11 @@
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Java Full Stack Engineer – Citrix Systems</h4>
+                <h4 class="h4 service-item-title"> Citrix Systems (April 2016 - June 2018)</h4>
 
                 <p class="service-item-text">
-                  Built a scalable and organized system for order tracking and management, focusing on clarity, seamless data flow, and maintainable architecture to ensure efficient operations. </p>
+                  Intern
+                </p>
               </div>
 
             </li>
@@ -289,6 +283,33 @@
         </section>
 
 
+        
+        
+        <section id="skills" class="section skills-section">
+          <h2>My Skills</h2>
+          <div class="skills-container">
+            <div class="skill-item">
+              <i class="fas fa-code"></i>
+              <h3>Frontend Development</h3>
+              <p>React.js, Angular, HTML5, CSS3, JavaScript</p>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-server"></i>
+              <h3>Backend Development</h3>
+              <p>Java, Spring Boot, Node.js</p>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-database"></i>
+              <h3>Databases</h3>
+              <p>PostgreSQL, MongoDB, Oracle</p>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-cloud"></i>
+              <h3>Cloud Platforms</h3>
+              <p>AWS, Azure, GCP</p>
+            </div>
+          </div>
+        </section>
         
 
       <!--
@@ -545,6 +566,32 @@
   -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <script>
+    // Highlight Active Section in Navbar
+    const sections = document.querySelectorAll('.section');
+    const navLinks = document.querySelectorAll('.navbar-link');
+  
+    window.addEventListener('scroll', () => {
+      let current = '';
+  
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop - 100;
+        if (window.scrollY >= sectionTop) {
+          current = section.getAttribute('id');
+        }
+      });
+  
+      navLinks.forEach(link => {
+        link.classList.remove('active');
+        if (link.getAttribute('href').includes(current)) {
+          link.classList.add('active');
+        }
+      });
+    });
+  </script>
+  
+  
 
 </body>
 
